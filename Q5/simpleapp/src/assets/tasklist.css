@@ -1,0 +1,78 @@
+.mt-tasklist {
+    margin-top: 50px;
+}
+
+.taskbox {
+    background: #ffff;
+    border-radius: 15px;
+    height: 155px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tasklist-header {
+    display: flex;
+}
+
+.notifcomplete {
+    width: 82px;
+    height: 25px;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 22px;
+    color: #FB3453;
+    background-color: #FEEAEB;
+    display: flex;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+
+.notifcomplete .fa-check {
+    margin-top: 1px;
+    margin-right: 5px;
+}
+
+.notifincomplete {
+    width: 120px;
+    height: 25px;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 22px;
+    display: flex;
+    padding-top: 4px;
+    padding-left: 8px;
+    background-color: #F2F4F8;
+    color: #D3D5DB solid;
+}
+
+.notifincomplete .fa-check {
+    margin-top: 1px;
+    margin-right: 5px;
+}
+
+.tasklist-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.tasklist-subtitle {
+    font-weight: normal;
+}
+
+.action-icon {}
+
+.icon {
+    margin-right: 10px;
+    margin-bottom: 30px;
+    color: #596279
+}
+
+.taskbox .fa-pen:hover {
+    color: green;
+}
+
+.taskbox .fa-trash-alt:hover {
+    color: red;
+}

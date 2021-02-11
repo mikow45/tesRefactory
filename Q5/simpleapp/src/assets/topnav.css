@@ -1,0 +1,65 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* text-align: center; */
+    background-color: #0442D0;
+    width: 100%;
+}
+
+.topnav {
+    display: flex;
+    background-color: #0442D0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    z-index: 9998;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 0px;
+    box-shadow: 0px 3px 8px #888888;
+}
+
+.logo-title {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 32px;
+    margin-right: 950px;
+    margin-top: 8px;
+}
+
+.logo-title:hover {
+    opacity: .5;
+}
+
+.ava {
+    display: flex;
+    margin-right: 10px;
+}
+
+.userava {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.username {
+    color: #ffff;
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icon {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icon:hover {
+    opacity: .5;
+}
+
+
+/* #nav a.router-link-exact-active {
+    color: #42b983;
+} */
